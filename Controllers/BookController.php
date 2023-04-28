@@ -6,7 +6,7 @@ use  App\Models\Book;
 
 class BookController extends BaseController{
 
-
+// the cat
      public function index()
     {
        $model = model(Book::class);
@@ -16,7 +16,7 @@ class BookController extends BaseController{
 		echo json_encode($data);
 
     }
-	// to  save the data in the api and display in the frontend
+ 
 	public function savedata(){
 		
 		  $model = model(Book::class);
