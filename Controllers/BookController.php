@@ -6,7 +6,7 @@ use  App\Models\Book;
 
 class BookController extends BaseController{
 
-// the cat
+// coming home
      public function index()
     {
        $model = model(Book::class);
