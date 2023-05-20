@@ -6,7 +6,7 @@ use  App\Models\Book;
 
 class BookController extends BaseController{
 
-// the train
+// the train is going 
      public function index()
     {
        $model = model(Book::class);
