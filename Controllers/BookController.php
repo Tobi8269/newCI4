@@ -6,7 +6,7 @@ use  App\Models\Book;
 
 class BookController extends BaseController{
 
-// the train is going 
+// index controller function to get data
      public function index()
     {
        $model = model(Book::class);
@@ -16,7 +16,7 @@ class BookController extends BaseController{
 		echo json_encode($data);
 
     }
- 
+ // to save data
 	public function savedata(){
 		
 		  $model = model(Book::class);
